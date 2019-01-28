@@ -1,0 +1,176 @@
+*{
+    text-align: center;
+}
+
+#navi{
+    display: block;
+}
+
+#link {
+    text-decoration: none;
+    color: white;
+    z-index:1;
+}
+
+header{
+    display: block;
+    width: auto;
+    height: 440px;
+    background-image: url(https://www.intheblack.com/~/media/intheblack/allimages/sponsored-content/2018/dexus-office-space.jpg);
+    position: relative;
+    z-index: 1;
+}
+
+
+.overlay{
+    position: absolute;
+    left: 0; right: 0;
+    top: 0;   
+    width: 100%;
+    height: 100%;
+    background-color:rgba(253, 15, 86, 0.342);
+    z-index: -1;
+}
+
+
+
+body{margin: 0%;}
+
+main{
+    margin: auto;
+    padding: 10px;
+}
+
+
+#links{text-align: right;}
+
+#links li{
+    display: inline;
+}
+
+#personal-img{
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+#personal{
+    height: 300px;
+    overflow: hidden;
+    padding: 2%;
+    transition: all 0.7s ease-in-out;
+}
+
+#personal:hover{
+    height: auto;
+}
+
+#personal p{
+    font-style: italic;
+    font-size: 0.8em;}
+
+
+#img-selector{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#random-imgs{
+}
+
+#img-size{
+    padding-top: 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    object-fit: cover;
+
+}
+
+#contact-us{
+    padding-left: 25%;
+    padding-right: 25%;
+
+    position: relative;
+    background-color:rgb(253, 15, 86);
+
+}
+
+#contact-us::before{
+    left: 25%;
+    top: 3em;
+    position: absolute;
+    background-color: black;
+    content:"";
+    width: 50%;
+    height: 2px;
+
+}
+
+#contact-info{
+    margin-top: 1%;
+}
+#input-message{
+    height: 5em;
+}
+
+input[type=text], select {
+    max-width: 100%;
+    padding: 6px 10px;
+    margin: 8px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    max-width: 80%;
+    background-color: rgb(253, 15, 86);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgb(253, 15, 15);
+  }
+  
+#fname, #mail-address, #input-message{
+    text-align: left;
+}
+
+#map-border{
+    margin-top: 1%;
+}
+
+#map{
+    object-fit: cover;
+    padding-top:8px;
+    width: 14em;
+    height: 14em;
+}
+
+footer{
+    background-color: rgb(94, 94, 94);
+}
+
+#bottom-links{
+    margin: auto;
+}
+
+#bottom-links li{
+    display: inline;
+}
+
+#bottom-links li a{
+    display: inline-block;
+    font-size: .8em;
+    margin: 1%;
+}
+
+#icons{
+    display: inline;
+    text-align: center;
+    font-size: 1.5em;
+}
