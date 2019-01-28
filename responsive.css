@@ -24,4 +24,17 @@
     .col-4{width: 33%;}
     .col-6{width: 50%;}
     .col-12{width: 100%;}
+    #map{
+        width: 15vw;
+    height: 15vw;
+    min-width: 120px;
+    min-height: 120px;;
+    }
+}
+
+@media screen and (max-width: 640px){
+    #map{
+        width: 260px;
+        height: 260px;
+    }
 }
